@@ -4,13 +4,13 @@ This repository is a collection of labelled and explained snippets of a variety 
 
 ### Table of Contents
 
-* [Multiplexers](verilog-samples/Multiplexers)
+* [Multiplexers](Multiplexers)
     * mux_assign.v
     * mux_if.v
     * mux_case.v
-* [Latches](verilog-samples/Latches)
+* [Latches](Latches)
     * d_latch.v
-* [Flip Flop](verilog-samples/Flip_Flop)
+* [Flip Flop](Flip_Flop)
     * ttf_sync_rst.v
-* [Counter](verilog-samples/Counter)
+* [Counter](Counter)
     * counter.v
