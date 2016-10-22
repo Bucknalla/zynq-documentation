@@ -1,6 +1,6 @@
 module counter (input clk, rst, en, dn, output reg [3:0] count);
 
-always@(posedge clk)
+always @ (posedge clk)
 	begin
 		if(rst)
 			count <= 4'b0000;
