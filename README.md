@@ -4,13 +4,13 @@ This repository is a collection of labelled and explained snippets of a variety 
 
 ### Table of Contents
 
-* [Multiplexers](Multiplexers)
+* [Multiplexers](./Multiplexers)
     * mux_assign.v
     * mux_if.v
     * mux_case.v
-* [Latches](Latches)
+* [Latches](./Latches)
     * d_latch.v
-* [Flip Flop](Flip_Flop)
+* [Flip Flop](./Flip_Flop)
     * ttf_sync_rst.v
-* [Counter](Counter)
+* [Counter](./Counter)
     * counter.v
