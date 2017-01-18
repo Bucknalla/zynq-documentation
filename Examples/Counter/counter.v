@@ -6,10 +6,12 @@ always @ (posedge clk)
 			count <= 4'b0000;
 		else
   			if(en)
-    		if(dn)
-				count <= count - 1'b1;
-  			else
-				count <= count + 1'b1;
+				begin
+		    		if(dn)
+						count <= count - 1'b1;
+		  			else
+						count <= count + 1'b1;
+				end
 	end
 
 endmodule

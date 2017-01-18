@@ -1,4 +1,4 @@
-module tff_sync_rst (input data, clk, rst, q);
+module tff_sync_rst (input data, clk, rst, output q);
 
 reg q;
 
