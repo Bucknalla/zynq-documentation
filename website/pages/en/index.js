@@ -103,16 +103,16 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
+        content: 'Documented and Guided Code Examples',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Examples',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Tutorials for Vivado Design Flows',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Tutorials',
       },
     ]}
   </Block>
@@ -131,7 +131,7 @@ const LearnHow = props => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
+        content: 'Talk about learning how to use this ',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Learn How',
@@ -185,7 +185,7 @@ const Showcase = props => {
   return (
     <div className="productShowcaseSection paddingBottom">
       <h2>{"Who's Using This?"}</h2>
-      <p>This project is used by all these people</p>
+      <p>This documentation is used by these organisations</p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>

@@ -75,8 +75,19 @@ class Footer extends React.Component {
             </a>
           </div>
         </section>
+        <a
+          href="https://warwick.ac.uk/fac/sci/eng/research/grouplist/connectedsystems/warc"
+          target="_blank"
+          className="fbOpenSource">
+          <img
+            src={this.props.config.baseUrl + 'img/warwick.png'}
+            alt="University of Warwick"
+            width="170"
+            height="45"
+          />
+</a>
         <section className="copyright">
-          Copyright &copy; {currentYear} University of Warwick.
+          Copyright &copy; {currentYear} Warwick Adaptive and Reconfigurable Compute Lab.
         </section>
       </footer>
     );

@@ -16,7 +16,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Getting Started with Zynq' /* title for your website */,
+  title: 'Zynq SoC Documentation' /* title for your website */,
   tagline: 'A collection of docs and tutorials for the Xilinx Zynq SoC',
   url: 'https://facebook.github.io' /* your website url */,
   baseUrl: '/zynq/' /* base url for your project */,
@@ -33,8 +33,8 @@ const siteConfig = {
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#C70E2D',
-    secondaryColor: '#656867',
+    primaryColor: '#5b3069',
+    secondaryColor: '#3f4246',
   },
   
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
