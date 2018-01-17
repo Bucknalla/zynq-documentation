@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Getting Started": ["intro","doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started": ["intro","architecture"],
+    "Processing System (PS)": ["ps"],
+    "Programmable Logic (PL)": ["pl"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
