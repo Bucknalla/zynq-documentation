@@ -2,7 +2,9 @@
   "docs": {
     "Getting Started": ["intro","architecture"],
     "Processing System (PS)": ["ps"],
-    "Programmable Logic (PL)": ["pl"]
+    "Programmable Logic (PL)": ["pl"],
+    "Direct Memory Access": ["intro-dma","scatter-dma"],
+    "AXI": ["intro-axi"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
